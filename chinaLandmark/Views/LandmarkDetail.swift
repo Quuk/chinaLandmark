@@ -12,7 +12,7 @@ struct LandmarkDetail : View {
     
     var body: some View {
         VStack {
-            MapView()
+            MapView(center: detail.locationCoordinate)
                 .frame( height : 350 )
                 .edgesIgnoringSafeArea(.top)
             
