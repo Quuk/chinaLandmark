@@ -12,7 +12,7 @@ struct LandmarkList: View {
         NavigationView {
             List( landmarks ){ item in
                 // 为了让它可点击, 所以加上NavigationLink
-                NavigationLink(destination: Text("xx")){
+                NavigationLink(destination: LandmarkDetail(detail: item)){
                     LandmarkCell(landmark: item)
                 }
             }
