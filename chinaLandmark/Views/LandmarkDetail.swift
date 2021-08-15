@@ -13,8 +13,8 @@ struct LandmarkDetail : View {
     var body: some View {
         VStack {
             MapView(center: detail.locationCoordinate)
-                .frame( height : 350 )
                 .edgesIgnoringSafeArea(.top)
+                .frame( height : 350 )
             
             Image(detail.imageName)
                 .resizable()
@@ -43,8 +43,8 @@ struct LandmarkDetail : View {
 
 
 
-//struct LandmarkDetail_Previews: PreviewProvider {
-//    static var previews: some View {
-//        LandmarkDetail(detail: landmarks[0])
-//    }
-//}
+struct LandmarkDetail_Previews: PreviewProvider {
+    static var previews: some View {
+        LandmarkDetail(detail: landmarks[0])
+    }
+}
