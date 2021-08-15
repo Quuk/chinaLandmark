@@ -33,6 +33,16 @@ struct Landmark : Identifiable {
 let landmarks = [
     Landmark(id: 1, category: "现代建筑", name: "天安门", city: "北京", province: "北京市", latitude: 39.9087243, longitude: 116.3952859, imageName: "one", isFavorite: true, isFeatured: true),
     Landmark(id: 2, category: "其他", name: "西湖", city: "杭州", province: "浙江省", latitude: 39.9087243, longitude: 116.3952859, imageName: "two", isFavorite: true, isFeatured: true),
+    Landmark(id: 3, category: "现代建筑", name: "天安门", city: "北京", province: "北京市", latitude: 39.9087243, longitude: 116.3952859, imageName: "one", isFavorite: true, isFeatured: true),
+    Landmark(id: 4, category: "其他", name: "西湖", city: "杭州", province: "浙江省", latitude: 39.9087243, longitude: 116.3952859, imageName: "two", isFavorite: true, isFeatured: true),
+    Landmark(id: 5, category: "现代建筑", name: "天安门", city: "北京", province: "北京市", latitude: 39.9087243, longitude: 116.3952859, imageName: "one", isFavorite: true, isFeatured: true),
+    Landmark(id: 6, category: "其他", name: "西湖", city: "杭州", province: "浙江省", latitude: 39.9087243, longitude: 116.3952859, imageName: "two", isFavorite: true, isFeatured: true),
+    Landmark(id: 7, category: "现代建筑", name: "天安门", city: "北京", province: "北京市", latitude: 39.9087243, longitude: 116.3952859, imageName: "one", isFavorite: true, isFeatured: true),
+    Landmark(id: 8, category: "其他", name: "西湖", city: "杭州", province: "浙江省", latitude: 39.9087243, longitude: 116.3952859, imageName: "two", isFavorite: true, isFeatured: true),
+    Landmark(id: 9, category: "现代建筑", name: "天安门", city: "北京", province: "北京市", latitude: 39.9087243, longitude: 116.3952859, imageName: "one", isFavorite: true, isFeatured: true),
+    Landmark(id: 10, category: "其他", name: "西湖", city: "杭州", province: "浙江省", latitude: 39.9087243, longitude: 116.3952859, imageName: "two", isFavorite: true, isFeatured: true),
+    Landmark(id: 11, category: "现代建筑", name: "天安门", city: "北京", province: "北京市", latitude: 39.9087243, longitude: 116.3952859, imageName: "one", isFavorite: true, isFeatured: true),
+    Landmark(id: 12, category: "其他", name: "西湖", city: "杭州", province: "浙江省", latitude: 39.9087243, longitude: 116.3952859, imageName: "two", isFavorite: true, isFeatured: true),
 ]
 
 
