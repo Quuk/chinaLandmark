@@ -10,9 +10,16 @@ import SwiftUI
 struct LandmarkDetail : View {
     var body: some View {
         VStack {
+            MapView()
+                .frame( height : 350 )
+                .edgesIgnoringSafeArea(.top)
+            
             Image("avator_250x250").clipShape(Circle())
                 .overlay(Circle().stroke(Color.white,lineWidth: 5))
                 .shadow(radius: 10)
+                .offset( y: -130)
+                .padding(.bottom,-130)
+
             VStack (alignment: .leading,spacing:8){
                 Text("东方明珠").font(.title)
                 HStack{
@@ -22,12 +29,9 @@ struct LandmarkDetail : View {
                 }
             }
             .padding()
+            
+            Spacer()
         }
-    }
-}
-
-struct LandmarkDetail_Previews : PreviewProvider {
-    static var previews:some View{
-        LandmarkDetail()
+        .navigationBarTitle(Text("东方明珠"), displayMode: .inline)
     }
 }

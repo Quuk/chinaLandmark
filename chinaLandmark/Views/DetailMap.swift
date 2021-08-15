@@ -28,10 +28,6 @@ struct MapView: UIViewRepresentable {
             animated: true
         )
     }
-    
-    
-    
-    
 }
 
 
