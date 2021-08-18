@@ -84,9 +84,9 @@
 		7996EB0E26C90DD800E2C6E9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7996EB1226C916AB00E2C6E9 /* LandmarkList.swift */,
 				797AC4D926C60B3600EBE680 /* LandmarkDetail.swift */,
 				7941566A26C651060089A79A /* DetailMap.swift */,
-				7996EB1226C916AB00E2C6E9 /* LandmarkList.swift */,
 				7996EB1426C9170900E2C6E9 /* LandmarkCell.swift */,
 			);
 			path = Views;
