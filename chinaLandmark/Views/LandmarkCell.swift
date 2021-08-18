@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct LandmarkCell: View {
-    
     let landmark: Landmark
     
     var body: some View {
@@ -29,13 +28,13 @@ struct LandmarkCell: View {
         }
     }
 }
-
-struct LandmarkCell_Previews: PreviewProvider {
-    static var previews: some View {
-        Group {
-            LandmarkCell(landmark: landmarks[0])
-            LandmarkCell(landmark: landmarks[1])
-        }
-        .previewLayout(.fixed(width: 300, height: 70))
-    }
-}
+//
+//struct LandmarkCell_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Group {
+//            LandmarkCell(landmark: landmarks[0])
+//            LandmarkCell(landmark: landmarks[1])
+//        }
+//        .previewLayout(.fixed(width: 300, height: 70))
+//    }
+//}

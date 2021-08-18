@@ -25,14 +25,12 @@ struct MapView: UIViewRepresentable {
     }
 }
 
-
-
-
-struct MapView_Previews: PreviewProvider {
-    static var previews: some View {
-        MapView(center: CLLocationCoordinate2D(
-            latitude: 38.9087243,
-            longitude: 116.3952859
-        ))
-    }
-}
+//
+//struct MapView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MapView(center: CLLocationCoordinate2D(
+//            latitude: 38.9087243,
+//            longitude: 116.3952859
+//        ))
+//    }
+//}

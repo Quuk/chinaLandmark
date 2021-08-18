@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LandmarkList: View {
     @State private var showFavoritesOnly = false
+    @EnvironmentObject var userData: UserData
     
     var body: some View {
         NavigationView {
@@ -19,7 +20,7 @@ struct LandmarkList: View {
                 
                 ForEach( landmarks ){ item in
                     if(!showFavoritesOnly || item.isFavorite ){
-                        NavigationLink(destination: LandmarkDetail(detail: item)){
+                        NavigationLink(destination: LandmarkDetail(detail: item).environmentObject(self.userData)){
                             LandmarkCell(landmark: item)
                         }
                     }
@@ -37,5 +38,6 @@ struct LandmarkList_Previews: PreviewProvider {
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
         }
+        .environmentObject(UserData())
     }
 }

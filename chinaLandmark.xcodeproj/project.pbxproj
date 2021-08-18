@@ -16,6 +16,7 @@
 		7996EB1126C9129100E2C6E9 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996EB1026C9129100E2C6E9 /* Landmark.swift */; };
 		7996EB1326C916AB00E2C6E9 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996EB1226C916AB00E2C6E9 /* LandmarkList.swift */; };
 		7996EB1526C9170900E2C6E9 /* LandmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996EB1426C9170900E2C6E9 /* LandmarkCell.swift */; };
+		79B24B8126CCD6AF00C7933B /* userData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24B8026CCD6AF00C7933B /* userData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7996EB1026C9129100E2C6E9 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		7996EB1226C916AB00E2C6E9 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		7996EB1426C9170900E2C6E9 /* LandmarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCell.swift; sourceTree = "<group>"; };
+		79B24B8026CCD6AF00C7933B /* userData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				7996EB1026C9129100E2C6E9 /* Landmark.swift */,
+				79B24B8026CCD6AF00C7933B /* userData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				7941566B26C651060089A79A /* DetailMap.swift in Sources */,
 				7996EB1326C916AB00E2C6E9 /* LandmarkList.swift in Sources */,
+				79B24B8126CCD6AF00C7933B /* userData.swift in Sources */,
 				797AC4DA26C60B3600EBE680 /* LandmarkDetail.swift in Sources */,
 				797AC4CC26C60AFD00EBE680 /* ContentView.swift in Sources */,
 				797AC4CA26C60AFD00EBE680 /* chinaLandmarkApp.swift in Sources */,
