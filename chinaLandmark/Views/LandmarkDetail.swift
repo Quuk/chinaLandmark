@@ -37,9 +37,9 @@ struct LandmarkDetail : View {
                         self.userData.userLandmarks[self.landmarkIndex].isFavorite.toggle()
                     }, label: {
                         if userData.userLandmarks[self.landmarkIndex].isFavorite {
-                            Image(systemName: "star").foregroundColor(.gray)
-                        }else{
                             Image(systemName: "star.fill").foregroundColor(.yellow)
+                        }else{
+                            Image(systemName: "star").foregroundColor(.gray)
                         }
                     })
                 }

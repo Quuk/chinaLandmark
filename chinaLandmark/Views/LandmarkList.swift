@@ -18,7 +18,7 @@ struct LandmarkList: View {
                     Text("只展示收藏")
                 })
                 
-                ForEach( landmarks ){ item in
+                ForEach( userData.userLandmarks ){ item in
                     if(!showFavoritesOnly || item.isFavorite ){
                         NavigationLink(destination: LandmarkDetail(detail: item).environmentObject(self.userData)){
                             LandmarkCell(landmark: item)
