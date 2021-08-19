@@ -13,7 +13,7 @@ struct chinaLandmarkApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandmarkList()
                 .environmentObject(userData)
         }
     }
