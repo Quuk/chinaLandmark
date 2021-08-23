@@ -15,6 +15,7 @@
 		7996EB1126C9129100E2C6E9 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996EB1026C9129100E2C6E9 /* Landmark.swift */; };
 		7996EB1326C916AB00E2C6E9 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996EB1226C916AB00E2C6E9 /* LandmarkList.swift */; };
 		7996EB1526C9170900E2C6E9 /* LandmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7996EB1426C9170900E2C6E9 /* LandmarkCell.swift */; };
+		79A6BFFB26D36FF500A3E12C /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A6BFFA26D36FF500A3E12C /* home.swift */; };
 		79B24B8126CCD6AF00C7933B /* userData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24B8026CCD6AF00C7933B /* userData.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		7996EB1026C9129100E2C6E9 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		7996EB1226C916AB00E2C6E9 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		7996EB1426C9170900E2C6E9 /* LandmarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCell.swift; sourceTree = "<group>"; };
+		79A6BFFA26D36FF500A3E12C /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 		79B24B8026CCD6AF00C7933B /* userData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				7996EB0F26C90DE200E2C6E9 /* Models */,
 				7996EB0E26C90DD800E2C6E9 /* Views */,
 				797AC4C926C60AFD00EBE680 /* chinaLandmarkApp.swift */,
+				79A6BFFA26D36FF500A3E12C /* home.swift */,
 				797AC4CD26C60B0500EBE680 /* Assets.xcassets */,
 				797AC4D226C60B0500EBE680 /* Info.plist */,
 				797AC4CF26C60B0500EBE680 /* Preview Content */,
@@ -183,6 +186,7 @@
 				797AC4DA26C60B3600EBE680 /* LandmarkDetail.swift in Sources */,
 				797AC4CA26C60AFD00EBE680 /* chinaLandmarkApp.swift in Sources */,
 				7996EB1526C9170900E2C6E9 /* LandmarkCell.swift in Sources */,
+				79A6BFFB26D36FF500A3E12C /* home.swift in Sources */,
 				7996EB1126C9129100E2C6E9 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
