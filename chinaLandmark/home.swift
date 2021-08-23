@@ -26,7 +26,12 @@ struct home: View {
                 ForEach(categories.keys.sorted(), id: \.self){ item in
                     Landmark_pack(key: item,group: self.categories[item]!)
                 }
-            }.navigationBarTitle(Text("精选"))
+            }
+            .navigationBarTitle(Text("精选"))
+            .navigationBarItems(
+                trailing: Image(systemName:"person.circle.fill")
+                    .imageScale(.large)
+            )
         }
     }
 }
