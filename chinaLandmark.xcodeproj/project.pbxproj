@@ -64,8 +64,8 @@
 		797AC4C826C60AFD00EBE680 /* chinaLandmark */ = {
 			isa = PBXGroup;
 			children = (
-				79E05EB726CE5800002BD181 /* controller */,
 				7996EB0F26C90DE200E2C6E9 /* Models */,
+				79E05EB726CE5800002BD181 /* controller */,
 				7996EB0E26C90DD800E2C6E9 /* Views */,
 				797AC4C926C60AFD00EBE680 /* chinaLandmarkApp.swift */,
 				79A6BFFA26D36FF500A3E12C /* home.swift */,
